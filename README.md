@@ -1,4 +1,3 @@
-# Superstore-Customer-Segmentation-Sales-Analysis
 # Superstore Customer Segmentation & Sales Analysis
 
 ##  Project Overview
