@@ -32,7 +32,7 @@ This end-to-end data analytics project analyzes the Sample Superstore dataset to
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 
 - **SQL** (PostgreSQL/MySQL): Data extraction, aggregation, and RFM segmentation
 - **Google Sheets**: Data cleaning, pivot tables, and interactive dashboard
@@ -40,7 +40,7 @@ This end-to-end data analytics project analyzes the Sample Superstore dataset to
 
 ---
 
-## 📋 Project Workflow
+##  Project Workflow
 
 ### 1. Data Preparation & Cleaning
 - Imported CSV data into Google Sheets
@@ -272,11 +272,11 @@ psql -U username -d database -f sql/02_CUSTOMER_SEGMENTATION.sql
 
 ##  Skills Demonstrated
 
-✅ **SQL**: Complex queries, CTEs, window functions, aggregations, RFM scoring  
-✅ **Data Analysis**: EDA, segmentation, profitability analysis, trend analysis  
-✅ **Business Acumen**: Translating data into actionable insights and recommendations  
-✅ **Data Visualization**: Dashboard design, chart selection, storytelling with data  
-✅ **Problem Solving**: Identifying profit leakages and optimization opportunities  
+ **SQL**: Complex queries, CTEs, window functions, aggregations, RFM scoring  
+ **Data Analysis**: EDA, segmentation, profitability analysis, trend analysis  
+ **Business Acumen**: Translating data into actionable insights and recommendations  
+ **Data Visualization**: Dashboard design, chart selection, storytelling with data  
+ **Problem Solving**: Identifying profit leakages and optimization opportunities  
 
 ---
 
