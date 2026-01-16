@@ -280,12 +280,6 @@ psql -U username -d database -f sql/02_CUSTOMER_SEGMENTATION.sql
 
 ---
 
-##  License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 ##  Acknowledgments
 
 - Dataset: Sample Superstore from Tableau Public
