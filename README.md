@@ -182,7 +182,7 @@ The interactive dashboard includes:
 4. **Discount vs Profit Margin** (Scatter Plot)
 5. **Top 10 Sub-Categories by Sales** (Bar Chart)
 6. **Regional Performance** (Table)
-
+Waiting for Dashboard(In Progress)
 ** [View Dashboard](YOUR_GOOGLE_SHEETS_LINK_HERE)**
 
 ---
@@ -217,7 +217,7 @@ superstore-customer-segmentation/
 ### Prerequisites
 - PostgreSQL/MySQL database
 - Google Sheets account
-- Python 3.8+ (optional)
+- Python 3.12.10+ (optional)
 
 ### Steps
 
@@ -277,14 +277,6 @@ psql -U username -d database -f sql/02_CUSTOMER_SEGMENTATION.sql
 ✅ **Business Acumen**: Translating data into actionable insights and recommendations  
 ✅ **Data Visualization**: Dashboard design, chart selection, storytelling with data  
 ✅ **Problem Solving**: Identifying profit leakages and optimization opportunities  
-
----
-
-##  Author
-
-**Your Name**  
-Data Analyst | Business Intelligence  
-[LinkedIn](YOUR_LINKEDIN) | [GitHub](YOUR_GITHUB) | [Email](YOUR_EMAIL)
 
 ---
 
