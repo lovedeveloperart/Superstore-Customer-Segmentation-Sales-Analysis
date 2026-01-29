@@ -23,6 +23,8 @@ This end-to-end data analytics project analyzes the Sample Superstore dataset to
 
 **Records**: 9,994 transactions
 
+**The data has clean before**
+
 **Key Fields**:
 - Order details: Order ID, Order Date, Ship Date, Ship Mode
 - Customer info: Customer ID, Customer Name, Segment
