@@ -2,7 +2,7 @@
 
 ##  Project Overview
 
-This end-to-end data analytics project analyzes the Sample Superstore dataset to uncover customer purchasing patterns, identify high-value customer segments, and provide actionable insights for marketing and discount strategies. The project demonstrates proficiency in **SQL**, **Google Sheets**, and **data-driven decision making** — essential skills for data analyst roles.
+This end-to-end data analytics project analyzes the Sample Superstore dataset to uncover customer purchasing patterns, identify high-value customer segments, and provide actionable insights for marketing and discount strategies. The project demonstrates proficiency in **SQL**, **Excel**, and **data-driven decision making** — essential skills for data analyst roles.
 
 ---
 
