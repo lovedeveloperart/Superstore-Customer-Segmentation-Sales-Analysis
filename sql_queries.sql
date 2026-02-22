@@ -23,7 +23,7 @@ WHERE order_id = 'CA-2015-103135' AND product_id = 'OFF-BI-10000069';
 -- Solution: The SUM(sales), SUM(quantity), and SUM(profit) data need to be aggregated into a single line.
 CREATE TABLE superstore_clean AS
 SELECT 
-    -- Dimensions (คงเดิม)
+    -- Dimensions
     order_id,
     order_date,
     ship_date,
@@ -41,11 +41,11 @@ SELECT
     sub_category,
     product_name,
     
-    -- Metrics (คำนวณใหม่)
-    SUM(sales) AS sales,          -- รวมยอดขาย
-    SUM(quantity) AS quantity,    -- รวมจำนวน
-    AVG(discount) AS discount,    -- ค่าเฉลี่ยส่วนลด
-    SUM(profit) AS profit         -- รวมกำไร
+    -- Metrics 
+    SUM(sales) AS sales,         
+    SUM(quantity) AS quantity,    
+    AVG(discount) AS discount,    
+    SUM(profit) AS profit         
 
 FROM superstore
 GROUP BY 
@@ -66,7 +66,6 @@ GROUP BY
     sub_category, 
     product_name;
 
-##Queries Check อีกทีว่าไม่ซ้ำแล้ว รวมแล้วเรียบร้อย
 SELECT order_id, product_id, COUNT(*)
 FROM superstore_clean
 GROUP BY order_id, product_id
@@ -104,13 +103,10 @@ WITH frm_scored AS (
 )
 SELECT 
   *,
-  -- สร้าง RFM String เช่น '444', '111' เพื่อให้อ่านง่ายขึ้น
   CONCAT(r_score,f_score,m_score) AS rfm_str,
-  --รวมคะแนนเพื่อใช้จัด Segment หลัก
   (r_score + f_score + m_score) AS total_score
 FROM frm_scored;
 
--- จากนั้นรันดูคะแนนความถูกต้องมั้ย
 SELECT * FROM customer_segmentation
 ORDER BY total_score DESC
 LIMIT 5;
